@@ -1,0 +1,16 @@
+---
+
+services:
+  proxy:
+    image: ghcr.io/applicreation/harmony-proxy:v0
+    ports:
+      - 80:80
+  core:
+    image: ghcr.io/applicreation/harmony-core:v0
+    volumes:
+      - ./.harmony/core:/root/.harmony:ro
+  example-php:
+    image: php:8.1-apache
+    volumes:
+      - ./.harmony/example-php/docker/etc/apache2/sites-enabled:/etc/apache2/sites-enabled:ro
+      - ./app:/var/www/html
