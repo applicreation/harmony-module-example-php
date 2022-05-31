@@ -12,5 +12,4 @@ services:
   example-php:
     image: php:8.1-apache
     volumes:
-      - ./.harmony/example-php/docker/etc/apache2/sites-enabled:/etc/apache2/sites-enabled:ro
-      - ./app:/var/www/html
+      - ./app:/var/www/html:ro

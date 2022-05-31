@@ -4,7 +4,7 @@ repository:
   name: harmony-module-example-php
   description: Harmony example PHP module
   homepage: https://github.com/lickdltd/harmony-module-example-php
-  topics: harmony, module, php
+  topics: harmony, module, example, php
   private: false
   has_issues: true
   has_projects: false

@@ -1,6 +1,4 @@
 ---
 
-name: Example php module
 modules:
-  - name: Example (PHP)
-    url: /example-php
+  - id: example-php

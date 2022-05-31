@@ -31,10 +31,8 @@ services:
 # ./.harmony/core/config.yaml
 ---
 
-name: Example (PHP)
 modules:
-  - name: Example (PHP)
-    url: /example-php
+  - id: example-php
 ```
 
 ## Development
